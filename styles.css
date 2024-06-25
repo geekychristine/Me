@@ -2,9 +2,9 @@ html, body {
     margin: 0;
     padding:0;
     background-color: #331123;
-    color: #b7b8ce;
+    color: #c8c9ef;
 }
-
+h1, h2 {line-height:1.2; margin:0 0 8px;}
 main {
   font-family: "Playwrite DE Grund", cursive;
   font-optical-sizing: auto;
@@ -22,6 +22,7 @@ main {
 
 .portrait { 
  display: flex;
+ gap:0;
  width: 80%;
  border-radius: 50%;
  border:10px solid #ffffff66;
@@ -40,6 +41,7 @@ main {
     justify-content: center;
     align-items: center;
     padding: 5vw;
+    gap:2vmax;
 }
 
 .container {
@@ -48,17 +50,24 @@ main {
     align-items: center;
     justify-content: center;
     text-align: center;
-    max-width: 60vw;
+    max-width: 50vmax;
+    gap:3vmax;
 }
 
+.qr{
+    display: flex;
+    overflow: hidden;
+}
 svg {
     width: 100%;
+    max-height:200px;
     fill: currentColor;
 }
 
 @media (orientation: landscape ) {
     .container {
         flex-direction: row;
+        
     }
     
 }
