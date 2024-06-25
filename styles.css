@@ -1,0 +1,13 @@
+.portrait { 
+ display: flex;
+ max-width: 60vw;
+}
+
+main {
+
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    color:#591b41;
+    background-color: #b7b8ce;
+}
